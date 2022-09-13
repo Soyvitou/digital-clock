@@ -1,0 +1,61 @@
+body
+{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background:url(image-15.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+h2
+{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+
+}
+.clock
+{
+    display: flex;
+
+}
+.clock div{
+    width: 100px;
+    height: 80px;
+    margin:5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(132, 0, 255, 0.521);
+
+}
+#hour,#minute,#second
+{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.text
+{
+    
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    padding: 9px;
+    background-color: rgba(25, 6, 43, 0.678);
+}
+#ampm
+{
+    width: 100px;
+    height: 60px;
+    color: white;
+    display: flex;
+    font-size: 45px;
+    margin: auto;
+    justify-content: center;
+}
